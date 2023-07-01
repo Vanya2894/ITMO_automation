@@ -50,27 +50,32 @@ elif not permit_print:
 
 # Задачка
 
-a_1 = 1-4
-a_2 = 5-6
-a_3 = 7-9
+#a_1 = 1-4
+#a_2 = 5-6
+#a_3 = 7-9
 
-if a_1 > 0 and a_1 < 5:
-    print('Бакалавр')
-elif a_2 > 5 and a_2 < 7:
-    print('Магистр')
-else:
-    print('Аспирант')
+#if a_1 > 0 and a_1 < 5:
+    #print('Бакалавр')
+#elif a_2 > 5 and a_2 < 7:
+    #print('Магистр')
+#else:
+    #print('Аспирант')
 
+student_rank = 6
 def student_rank (year):
-    if year >= 1 and year < 4:
+    if year >= 1 and year <= 4:
         print('Бакалавр')
-    elif year >= 5 and year < 6:
+    elif year >= 5 and year <= 6:
         print('Магистр')
     else:
         print('Аспирант')
+
+student_rank(6)
 
 x = 53
 if x > 100 or x< -100:
         print('-')
 else:
         print('+')
+
+
