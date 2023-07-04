@@ -17,11 +17,11 @@ print(155, 2.9, 'sting', [5, 6], (9 == 10))
 task_1(5, 3.5, 'sting', [1, 2, 3], (9 == 10))
 
 
-a: list = [1, 2, 3, 5, 8, 13, 21]
-def task_2(a):
-    return a
-print('a [0:3] =', a[0:3])
-print(task_2(a[0:3]))
+
+def task_2()-> None:
+    a = [1, 2, 3, 5, 8, 13, 21]
+print(a[0:3])
+
 
 
 def task_3 (a):
